@@ -1,32 +1,31 @@
-#modo{
-    width: 30px;
-    font-size: 70px;
-    margin: auto;
-    cursor: pointer;
+#modo {
+  width: 30px;
+  font-size: 70px;
+  margin: auto;
+  cursor: pointer;
 }
 
-.dark{
-    background: rgb(4, 24, 27);
+.dark {
+  background: rgb(4, 24, 27);
 }
 
-.dark h1{
-    color: white;
+.dark h1 {
+  color: white;
 }
 
-
-.dark #modo{
-    color: orange;
+.dark #modo {
+  color: orange;
 }
 
-.dark p{
-    color: rgb(211, 211, 211);
+.dark p {
+  color: rgb(211, 211, 211);
 }
-.dark caja{
-    color: rgb(4, 24, 27);
+.dark caja {
+  color: rgb(4, 24, 27);
 }
-.dark h2{
-    color: white;
+.dark h2 {
+  color: white;
 }
-.dark .enlace{
-    background: rgb(13, 84, 117);
+.dark .botones {
+  background: rgb(13, 84, 117);
 }
