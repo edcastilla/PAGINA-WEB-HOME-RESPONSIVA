@@ -1,164 +1,80 @@
-/*.caja-imagenes img {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows:100%;
-    width: 100%;  /*Las imágenes ocupan todo el ancho de su contenedor 
-    height: auto;  /*Altura automática para mantener la relación de aspecto original 
-    object-fit: cover;  /* Ajustar la imagen dentro de su contenedor manteniendo la relación de aspecto 
-    max-width: 300px;  Ancho máximo de 400px para cada imagen 
-}*/
-/*.contenedor-imagen img {
-     max-width: 300px; /* Ancho máximo de 300 píxeles */
-/*max-height: 600px;  Alto máximo de 200 píxeles */
-
-/*max-width: 100%; /* Ajustar el ancho de la imagen al ancho de su contenedor */
-/*height: auto; /* Altura automática para mantener la relación de aspecto original */
-
-/*display: grid; permitiendo un control preciso sobre la disposición 
-                y el tamaño de los elementos dentro de un contenedor.*/
-/*grid-template-columns: repeat(3,1fr); /* Creamos tres columnas con el mismo ancho */
-/*align-items: center;
-    grid-gap: 20px; /* Espacio entre las columnas 
-  } */
-/*.caja-imagenes {
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        grid-gap: 10px; /* Espacio entre las imágenes 
-align-items: center;
-        text-align: center;  /*Alinea el contenido a la izquierda 
-      } */
-/*.caja-imagenes img {
-        max-width: 100%;
-        height: auto;
-      } */
-/*.caja-imagenes {
-            display: flex;
-            justify-content: center; /* Alinear horizontalmente al centro */
-/*align-items: center;  Alinear verticalmente al centro */
-/* Elimina cualquier margen o relleno que pueda afectar el centrado */
-/*margin: 0;
-            padding: 0;
-        
-        
-        /*.caja-imagenes img {
-            max-width: 100%;
-            height: auto;
-            margin: auto; /* Centrar la imagen dentro del contenedor */
-
-/*.caja-imagenes {
-            display: flex;
-            justify-content: center; /* Alinear horizontalmente al centro */
-/*  align-items: center; Alinear verticalmente al centro */
-
-/*.caja-imagenes img {
-            max-width: 100%;
-            height: auto;
-        }
-        
-        .caja-imagenes .caja {
-            margin: auto; /* Centrar la caja que contiene la imagen */
-
 body,
 html {
-  margin: 0;
-  padding: 0;
-  text-align: center; /* Centrar horizontalmente todo el contenido */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar horizontalmente todo el contenido */
 }
 
 header,
 footer {
-  width: 100%;
-  max-width: 1440px; /* Limita el ancho del encabezado y pie de página */
-  margin: 0 auto; /* Centra el encabezado y pie de página */
-  padding: 10px;
-  background-color: lightgray;
+    width: 100%;
+    max-width: 1440px; /* Limita el ancho del encabezado y pie de página */
+    margin: 0 auto; /* Centra el encabezado y pie de página */
+    padding: 10px;
+    background-color: lightgray;
 }
 
 .botones a {
-  text-decoration: none !important; /* Quita la subrayado del enlace */
-  border-bottom: none !important; /* Quita la línea de abajo */
+    text-decoration: none !important; /* Quita el subrayado del enlace */
+    border-bottom: none !important; /* Quita la línea de abajo */
 }
 
 .boton-redondeado {
-  display: inline-block;/*en este caso es para permitir que el botón tenga dimensiones (ancho y alto) y se pueda aplicar relleno (padding) */
-  border-radius: 20px; /* Ajusta el valor según el radio de redondeo deseado */
-  padding: 10px 20px; /* Ajusta el relleno según sea necesario */
-  background-color: #4CAF50; /* Color de fondo del botón */
-  color: white; /* Color del texto del botón */
-  border: none; /* Quita el borde del botón */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  transition: background-color 0.3s; /* Agrega una transición suave al cambiar el color de fondo */
- 
+    display: inline-block; /* Permitir que el botón tenga dimensiones (ancho y alto) */
+    border-radius: 20px; /* Radio de redondeo */
+    padding: 10px 20px; /* Relleno */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde */
+    cursor: pointer; /* Cambia el cursor */
+    transition: background-color 0.3s; /* Transición suave */
 }
 
 .boton-redondeado:hover {
-  background-color: #45a049; /* Cambia el color de fondo al pasar sobre el botón */
+    background-color: #45a049; /* Cambia el color de fondo al pasar sobre el botón */
 }
 
 footer {
-  width: 100%;
-  max-width: 1440px; /* Limita el ancho del footer */
-  margin: 0 auto; /* Centra el footer */
-  padding: 10px;
-  background-color: lightgray;
-  position: relative; /* Establece el posicionamiento relativo para el footer */
+    width: 100%;
+    max-width: 1440px; /* Limita el ancho del footer */
+    margin: 0 auto; /* Centra el footer */
+    padding: 10px;
+    background-color: lightgray;
+    position: relative; /* Establece el posicionamiento relativo */
 }
 
 .imagen-fondo {
     display: block;
-    width: 100%; /* Ajusta el ancho de la imagen al 100% del footer */
-    height: auto; /* Permite que la altura se ajuste automáticamente */
+    width: 100%; /* Ajusta el ancho */
+    height: auto; /* Altura automática */
 }
-
-/*.boton-contacto {
-    position: absolute;
-    top: 81px;  Ajusta la posición vertical del botón */
-    /*left: 45px; /* Ajusta la posición horizontal del botón */
-    /*z-index: 1;se utiliza para asegurarse de que el botón de contacto esté delante de otros elementos 
-               que puedan estar presentes en el footer
-}*/
 
 .boton-contacto {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
-
-/*.botones {
-        position: absolute;
-        top: 50%;
-        right: 10px;  Alinea los botones al extremo derecho 
-        transform: translateY(-50%);
-    }*/
-
-/* Ajustar la alineación de los botones en pantallas más pequeñas 
-       @media screen and (max-width: 768px) {
-            .botones {
-                position: static; /* Eliminar la posición absoluta para que los botones fluyan en el documento */
-/*text-align: center; Alinear los botones al centro en pantallas más pequeñas */
-/*margin-top: 10px; /* Añadir un margen superior para separar los botones del encabezado */
-/* }*/
-/* }*/
-/* */
 main {
-  padding: 20px;
+    padding: 20px;
 }
+
 .caja-imagenes {
-  display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Alinear verticalmente */
+    display: grid; /* Utilizar layout en grid para tener más control */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajustar automáticamente las columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-items: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
 }
 
 .caja-imagenes img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%; /* Asegurar que las imágenes no sobrepasen el contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
 }
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  text-align: center; /* Centrar horizontalmente todo el contenido */
+/* Ajustar la imagen dentro de la caja en el main */
+main .caja img {
+    max-width: 100%; /* Hacer que la imagen ocupe todo el ancho de su contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
 }
