@@ -1,80 +1,83 @@
 body,
 html {
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Centrar horizontalmente todo el contenido */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centrar horizontalmente todo el contenido */
 }
 
 header,
 footer {
-    width: 100%;
-    max-width: 1440px; /* Limita el ancho del encabezado y pie de página */
-    margin: 0 auto; /* Centra el encabezado y pie de página */
-    padding: 10px;
-    background-color: lightgray;
+  width: 100%;
+  max-width: 1440px; /* Limita el ancho del encabezado y pie de página */
+  margin: 0 auto; /* Centra el encabezado y pie de página */
+  padding: 10px;
+  background-color: lightgray;
 }
 
 .botones a {
-    text-decoration: none !important; /* Quita el subrayado del enlace */
-    border-bottom: none !important; /* Quita la línea de abajo */
+  text-decoration: none !important; /* Quita el subrayado del enlace */
+  border-bottom: none !important; /* Quita la línea de abajo */
 }
 
 .boton-redondeado {
-    display: inline-block; /* Permitir que el botón tenga dimensiones (ancho y alto) */
-    border-radius: 20px; /* Radio de redondeo */
-    padding: 10px 20px; /* Relleno */
-    background-color: #4CAF50; /* Color de fondo */
-    color: white; /* Color del texto */
-    border: none; /* Quita el borde */
-    cursor: pointer; /* Cambia el cursor */
-    transition: background-color 0.3s; /* Transición suave */
+  display: inline-block; /* Permitir que el botón tenga dimensiones (ancho y alto) */
+  border-radius: 20px; /* Radio de redondeo */
+  padding: 10px 20px; /* Relleno */
+  background-color: #4caf50; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Quita el borde */
+  cursor: pointer; /* Cambia el cursor */
+  transition: background-color 0.3s; /* Transición suave */
 }
 
 .boton-redondeado:hover {
-    background-color: #45a049; /* Cambia el color de fondo al pasar sobre el botón */
+  background-color: #45a049; /* Cambia el color de fondo al pasar sobre el botón */
 }
 
 footer {
-    width: 100%;
-    max-width: 1440px; /* Limita el ancho del footer */
-    margin: 0 auto; /* Centra el footer */
-    padding: 10px;
-    background-color: lightgray;
-    position: relative; /* Establece el posicionamiento relativo */
+  width: 100%;
+  max-width: 1440px; /* Limita el ancho del footer */
+  margin: 0 auto; /* Centra el footer */
+  padding: 10px;
+  background-color: lightgray;
+  position: relative; /* Establece el posicionamiento relativo */
 }
 
 .imagen-fondo {
-    display: block;
-    width: 100%; /* Ajusta el ancho */
-    height: auto; /* Altura automática */
+  display: block;
+  width: 100%; /* Ajusta el ancho */
+  height: auto; /* Altura automática */
 }
 
 .boton-contacto {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 .caja-imagenes {
-    display: grid; /* Utilizar layout en grid para tener más control */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajustar automáticamente las columnas */
-    gap: 10px; /* Espacio entre las imágenes */
-    justify-items: center; /* Centrar los elementos horizontalmente */
-    align-items: center; /* Centrar los elementos verticalmente */
+  display: grid; /* Utilizar layout en grid para tener más control */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Ajustar automáticamente las columnas */
+  gap: 10px; /* Espacio entre las imágenes */
+  justify-items: center; /* Centrar los elementos horizontalmente */
+  align-items: center; /* Centrar los elementos verticalmente */
 }
 
 .caja-imagenes img {
-    max-width: 100%; /* Asegurar que las imágenes no sobrepasen el contenedor */
-    height: auto; /* Mantener la proporción de aspecto */
+  max-width: 100%; /* Asegurar que las imágenes no sobrepasen el contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
 }
 
 /* Ajustar la imagen dentro de la caja en el main */
 main .caja img {
-    max-width: 100%; /* Hacer que la imagen ocupe todo el ancho de su contenedor */
-    height: auto; /* Mantener la proporción de aspecto */
+  max-width: 100%; /* Hacer que la imagen ocupe todo el ancho de su contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
 }
